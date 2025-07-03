@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained pipeline
-pipeline = joblib.load(r'C:\Users\user\Desktop\item prediction\pipeline_compressed.joblib')
+pipeline = joblib.load('pipeline_compressed.joblib')
 
 # App title and header
 st.title("🛍️ Retail Store Return Prediction")
